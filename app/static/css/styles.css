@@ -1,0 +1,23 @@
+body {
+  color: white;
+}
+
+.my-checkbox .q-checkbox__bg {
+  border: 2px solid white !important;
+  background-color: white !important;
+}
+.my-checkbox .q-checkbox__inner--truthy .q-checkbox__bg {
+  background-color: #16a34a !important;
+  border-color: #16a34a !important;
+}
+
+.exp-select .q-field__native,
+.exp-select .q-field__input {
+  color: #000 !important;
+}
+.q-menu.exp-select-menu .q-item__label {
+  color: #000 !important;
+}
+.q-menu.exp-select-menu .q-item.q-item--active .q-item__label {
+  color: #16a34a !important;
+}
